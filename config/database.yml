@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: railsdb
-  username: postgres
+  database: d1pufr6j6s62ib
+  username: ojboyarswhldfm
   password: <%= ENV['RAILAPP_DATABASE_PASSWORD'] %>
