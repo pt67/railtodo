@@ -1,11 +1,16 @@
+
+<div class="wrapper">
 <h1>Listing Articles</h1>
  
 <%= link_to 'Create Articles', new_article_path %>
+
 <table>
   <tr>
     <th>Title</th>
     <th>Text</th>
-    <th></th>
+    <th>Show</th>
+    <th>Edit</th>
+    <th>Delete</th>
   </tr>
  
   <% @articles.each do |article| %>
@@ -20,3 +25,4 @@
     </tr>
   <% end %>
 </table>
+</div>

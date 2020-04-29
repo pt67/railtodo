@@ -1,3 +1,51 @@
 // Place all the styles related to the articles controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+a{
+color:#fff;
+background:red;
+padding:5px 10px;
+line-height:30px;
+text-decoration:none;
+}
+
+.wrapper{
+width:70%;
+margin:auto;
+}
+
+table{
+padding-top:2%;
+}
+table tr th{
+ outline:1px solid #fff;
+ padding:2px;
+}
+
+table tr td{
+border-bottom:1px solid #fff;
+padding:1% 0%;
+}
+
+
+
+
+form #article_text{ 
+ width: 500px;
+ height: 200px 
+}
+
+form #comment_body{ 
+ width: 500px;
+ height: 200px 
+}
+
+form input[type='submit']{
+padding:2px;
+border:1px solid red;
+background:#fff;
+padding:5px 10px;
+}
+
+
