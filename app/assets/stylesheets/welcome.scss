@@ -2,8 +2,34 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
 
 body{
 background:#111;
 color:#fff;
+font-family: 'Metal Mania', cursive;
+margin:0;
+max-width:100%;
+}
+
+
+.home_menu{
+padding:1% 20%;
+display:flex;
+justify-content:space-between;
+}
+
+.home_menu ul li{
+display:inline;
+}
+
+
+h2{
+font-size:3em;
+}
+
+
+.showcase{
+padding:15% 10%;
 }
